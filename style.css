@@ -1,0 +1,62 @@
+h1 {
+    color: brown;
+    text-align: center;
+    border: 20px;
+}
+ul {
+    color: brown;
+}
+body {
+    background-color: #faf6f6;
+}
+#primeiro {
+    color: rgb(12, 12, 12);
+}
+#primeiroh2 {
+    color: rgb(14, 13, 13);
+}
+.menu-de-navegação{
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0% auto;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.logo{
+    font-size: 35px;
+    font-style: normal;
+    color: white;
+    font-weight: bold ;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: brown;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+nav ul li:hover{
+    background-color: lightgray;
+}
+.principal{
+    max-width: 1200px;  
+    margin: 0 left;     
+    padding: 20PX;      
+    text-align: left; 
+    margin-bottom: 40px; 
+}
+
+
