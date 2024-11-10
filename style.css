@@ -1,7 +1,7 @@
 h1 {
     color: brown;
     text-align: center;
-    border: 20px;
+    border: 2px solid brown;
 }
 ul {
     color: brown;
@@ -58,5 +58,20 @@ nav ul li:hover{
     text-align: left; 
     margin-bottom: 40px; 
 }
+@media (max-width: 1024px) {
+    .menu-de-navegação {
+        padding: 5%;
+        width: 100%;
+        max-width: 100%;
+     }
+    }
+@media (max-width: 768px) {
+    .menu-de-navegação {
+            padding: 8%;
+            width: 100%;
+            max-width: 100%;
+        }
+       }
+
 
 
