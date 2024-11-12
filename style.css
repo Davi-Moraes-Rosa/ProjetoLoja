@@ -58,6 +58,22 @@ nav ul li:hover{
     text-align: left; 
     margin-bottom: 40px; 
 }
+.cardapio{
+    display: flex;
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.cardapio img{
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 30px;
+    border: 2px solid brown;
+}
 @media (max-width: 1024px) {
     .menu-de-navegação {
         padding: 5%;
